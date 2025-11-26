@@ -5,102 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Curriculum vitae de Lorenzo Brissard-Navarro : compétences en développement web, formations, expériences et objectif professionnel">
     <title>Lorenzo Brissard-Navarro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <!-- Balise pour le haut de page-->
-    <header>
-        <h1>Mon CV</h1>
-    </header>
-    <!-- Balise pour le contenu principal de la page-->
-    <main>
-        <!-- Section pour regrouper les informations personnelles -->
-        <section>
-            <h2>Informations personnelles</h2>
+    <div class="main_container">
+        <!-- Balise pour le haut de page-->
+        <header>
+            <h1>CV de Ti-Biscuit</h1>
+        </header>
+        <!-- Balise pour le contenu principal de la page-->
+        <main>
+            <section class="section_container" id="left_container">
+                <article id="container_profil">
+                    <img src="images/tibiscuit.png" alt="Photo de profil du pain d'épice" id="photo_profil">
+                    <img src="images/tibiscuit_2.png" alt="Photo de profil du pain d'épice" id="photo_hover">
+                </article>
+                <!-- Section pour regrouper les informations  -->
+                <section>
+                    <article>
+                        <h2>Contact</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-house"></i>
+                                <p>4 Rue du Four Trop Chaud, Quartier des Contes, Fort Fort Lointain</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>tibiscuit@pain-d-epice.com</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                <p>06 00 COOKIE 00</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <article id="article_objectif">
+                        <h2>Objectif professionnel</h2>
+                        <p>Survivre plus de 3 jours dans une cuisine active et devenir le premier ambassadeur officiel du Syndicat des Biscuits Comestibles (SBC)</p>
+                    </article>
+                    <h2>Compétences</h2>
+                    <article>
+                        <h3>Compétences personnelles</h3>
+                        <ul>
+                            <li>Résistance extrême à la douleur</li>
+                            <li>Course de sprint</li>
+                            <li>Courage malgré un gabarit limité</li>
+                            <li>Créativité débordante pour la résolution de problèmes</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Compétences techniques</h3>
+                        <ul>
+                            <li>Capacité à rester croustillant dans des environnements humides</li>
+                            <li>Réparation rapide de membres cassés (avec un peu de caramel fondu)</li>
+                            <li>Capacité à créer 27 expressions faciales différentes uniquement en contractant son glaçage</li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+            <section class="section_container">
+                <!-- Section pour regrouper les expériences -->
+                <section>
+                    <h2>Expériences</h2>
+                    <article class="article_experiences">
+                        <h3>Expériences professionnelles</h3>
+                        <ul>
+                            <li>
+                                <h4>Évadé professionnel de cuisines dangereuses (2001 à aujourd'hui)</h4>
+                                <p>Évasion de 12 fours préchauffés, esquive de 48 tentatives de dégustation et survie dans un pot de farine pendant 2 jours (record personnel)</p>
+                            </li>
+                            <li>
+                                <h4>Coach personnel en « Croquantise » (1990 - 2001)</h4>
+                                <p>Formation de jeunes biscuits en techniques d’esquive</p>
+                            </li>
+                            <li>
+                                <h4>Chef Représentant du Syndicat des Pâtisseries Vivantes (fort fort lointain - 1990)</h4>
+                                <p>Défense des droits des gâteaux sensibles et obtention d’un décret interdisant de « goûter avant la cuisson »</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Etudes / Formations</h3>
+                        <ul>
+                            <li>
+                                <h4>Diplôme en Survie Culinaire</h4>
+                                <p>Académie des Douceurs Magiques – Mention : À moitié cuit mais motivé</p>
+                            </li>
+                            <li>
+                                <h4>Certificat de Cris Intensifs</h4>
+                                <p>École Royale du Cri de Panique – 2 ans d’apprentissage</p>
+                            </li>
+                            <li>
+                                <h4>Apprenti chez le Maître Boulanger</h4>
+                                <p>Formation écourtée suite à un accident de four (et une tentative de dégustation prématurée)</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h2>Centres d'intérêt</h2>
+                        <ul class="liste_passions">
+                            <li>
+                                <p>Fuir les géants affamés</p>
+                                <img src="images/fuite.png" alt="Bonhomme de pain d'épice en train de fuir des monstres">
+                            </li>
+                            <li>
+                                <p>Compétitions de lancer de bonbons</p>
+                                <img src="images/bonbon_cible.png" alt="Lancer de bonbon sur une cible">
+                            </li>
+                            <li>
+                                <p>Pâtisserie créative</p>
+                                <img src="images/patisserie.png" alt="Dessin représentant une patisserie créative">
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <!-- Balise pour le bas de page-->
+        <footer>
             <article>
-                <h3>Informations générales</h3>
-                <ul>
-                    <li>Prénom : Lorenzo</li>
-                    <li>Nom : Brissard-Navarro</li>
-                    <li>Date de naissance : 25/05/2006</li>
-                </ul>
+                <!-- Bouton pour télécharger le PDF du CV -->
+                <a href="mon-cv.pdf" download>
+                    <button>Télécharger le PDF du CV</button>
+                </a>
+                <!-- Lien hypertexte pour accéder au compte Github -->
+                <a href="https://github.com/lorenzo-brissardnavarro" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </article>
-            <article>
-                <h3>Contact</h3>
-                <ul>
-                    <li>Adresse : 25 Rue de la Soulane, 06250 Mougins</li>
-                    <li>Mail : <a href="mailto:lorenzonavarro06250@gmail.com">lorenzonavarro06250@gmail.com</a></li>
-                    <li>Numéro de téléphone : 0768703830</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Centres d'intérêt</h3>
-                <ul>
-                    <li>Sport</li>
-                    <li>Jeux de société, jeux de logique</li>
-                    <li>Jeux vidéos</li>
-                </ul>
-            </article>
-        </section>
-        <!-- Section pour les objectifs professionnels -->
-        <section>
-            <h2>Objectif professionnel</h2>
-            <p>Mon objectif est de devenir développeur fullstack afin réaliser la programmation d’un site ou d'une application web à la fois en front-end et back-end.</p>
-        </section>
-        <!-- Section pour regrouper les compétences -->
-        <section>
-            <h2>Compétences</h2>
-            <article>
-                <h3>Compétences personnelles</h3>
-                <ul>
-                    <li>Impliqué</li>
-                    <li>Curieux</li>
-                    <li>Réfléchi</li>
-                    <li>Esprit d'équipe</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Compétences techniques</h3>
-                <ul>
-                    <li>Frontend : 
-                        HTML <img  src="images/html.webp" alt="Logo HTML" width="25" height="25" />, 
-                        CSS, <img  src="images/css.webp" alt="Logo CSS" width="25" height="25" />
-                        JavaScript, <img  src="images/javascript.webp" alt="Logo JavaScript" width="25" height="25" />
-                        React <img  src="images/react.webp" alt="Logo React" width="25" height="25" />
-                    </li>
-                    <li>Backend : 
-                        Python <img  src="images/python.webp" alt="Logo Python" width="25" height="25" />, 
-                        NodeJS <img  src="images/node.webp" alt="Logo NodeJS" width="25" height="25" />
-                    </li>
-                    <li>Logiciels de bureautique : Suite office</li>
-                </ul>
-            </article>
-        </section>
-        <!-- Section pour regrouper les expériences -->
-        <section>
-            <h2>Expériences</h2>
-            <article>
-                <h3>Expériences professionnelles</h3>
-                <ul>
-                    <li>Stage professionnel effectué en classe de 3ème (Février 2021) dans l'entreprise Nuvisan à Biot</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Etudes / Formations</h3>
-                <ul>
-                    <li>Lycée Carnot (Septembre 2021 à Juin 2024) : Baccalauréat Général Mention Très Bien avec les spécialités Numérique et Sciences Informatiques (NSI) et Mathématiques</li>
-                    <li>Formation Développeur Web chez Openclassrooms (formation à distance) de Décembre 2024 à Juin 2025</li>
-                </ul>
-            </article>
-        </section>
-    </main>
-    <!-- Balise pour le bas de page-->
-    <footer>
-        <!-- Bouton pour télécharger le PDF du CV -->
-        <a href="mon-cv.pdf" download>
-            <button>Télécharger le PDF du CV</button>
-        </a>
-        <!-- Lien hypertexte pour accéder au compte Github -->
-        <p>Cliquer pour accéder à <a href="https://github.com/lorenzo-brissardnavarro">mon compte Github</a> <br> © 2025 - Tous droits réservés</p>
-    </footer>
+            <p>© 2025 - Tous droits réservés</p>
+        </footer>
+    </div>
 </body>
 </html>

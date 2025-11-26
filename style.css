@@ -1,0 +1,159 @@
+body {
+    background-color: #898993;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    animation: glow 1.5s infinite alternate;
+    text-align: center;
+}
+
+.main_container{
+    background-color: black;
+    color: white;
+    margin: 20vh;
+    padding: 3rem 5rem;
+}
+
+main {
+    display: flex;
+    text-align: center;
+}
+
+#left_container {
+    box-sizing: border-box;
+    border-right-width: 3rem;
+    border-image: linear-gradient(#BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) 1;
+    border-right-style: solid;
+}
+
+
+#container_profil {
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(#BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+#container_profil img {
+    clip-path: ellipse(50% 50%);
+    border-image: linear-gradient(#000000) 1;
+    border-image-width: 5rem;
+    width: 15rem;
+    height: 100%;
+    object-fit: contain;
+}
+
+#photo_hover {
+    display: none;
+}
+
+#container_profil:hover #photo_hover {
+    display: inline;
+}
+
+#container_profil:hover #photo_profil {
+    display: none;
+}
+
+.section_container h2 {
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(#BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) 1;
+    margin: 1rem auto;
+}
+.section_container section {
+    padding: 0 13px;
+}
+#article_objectif p {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.liste_passions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste_passions li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.liste_passions li img {
+    width: 8rem;
+}
+
+.article_experiences ul {
+    text-align: center;
+}
+
+.article_experiences h4 {
+    margin: 0;
+}
+
+.article_experiences p {
+    margin-top: 0;
+}
+
+.article_experiences li {
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+}
+
+footer article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer button {
+    background: linear-gradient(black, black) padding-box, linear-gradient(#BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+    color:white;
+    cursor: pointer;
+    padding: 1em 3em;
+    transition: 0.3s;
+}
+
+footer button:hover {
+    background: linear-gradient(wheat, wheat) padding-box, linear-gradient(#BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) border-box;
+    color: black;
+}
+
+.fa-github {
+    font-size: 3em;
+    color: white;
+}
+
+.fa-github:hover {
+    color:wheat
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
