@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlommPetals - Contact</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="content_container">
+        <header>
+            <img src="../images/logo-bloompetals.png" alt="Logo de l'entreprise BloomPetals">
+            <nav>
+                <a href="#">Accueil</a>
+                <a href="#">Qui sommes-nous</a>
+                <a href="#">Nos réalisations</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section class="contact">
+                <article class="contact_article">
+                    <h2>Contact</h2>
+                    <p>Vous avez une question ou une suggestion ? Discutons-en !</p>
+                    <form action="#" method="post">
+                        <label for="civilite">Civilité</label>
+                        <select id="civilite" name="civilite" required>
+                            <option value="madame" selected>Madame</option>
+                            <option value="monsieur">Monsieur</option>
+                            <option value="non-binaire">Non-binaire</option>
+                        </select>
+
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" required />
+
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" required />
+
+                        <label for="adresse">Adresse postale</label>
+                        <input type="text" name="adresse" id="adresse" placeholder="Numéro et rue" required />
+
+                        <article id="politique_box">
+                            <label for="politique">J’accepte la politique de confidentialité</label>
+                            <input type="checkbox" id="politique" name="politique" required />
+                        </article>
+
+                        <input type="submit" value="Envoyer" />
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <nav class="footer_nav">
+                <ul>
+                    <li><a href="#">Qui sommes-nous</a></li>
+                    <li><a href="#">Réalisations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="../images/logo-bloompetals.png" alt="Logo de l'entreprise BloomPetals">
+            </nav>
+        </footer>
+    </section>
+</body>
+</html>
